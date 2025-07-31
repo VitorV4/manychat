@@ -104,24 +104,24 @@
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <span class="text-4xl">❤️</span>
-                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Experiência do Cliente 24/7</h4>
-                    <p class="text-slate-600 text-sm">Respostas instantâneas e consistentes a qualquer hora, elevando a satisfação e a percepção da marca.</p>
+                    <span class="text-4xl block mx-auto">❤️</span>
+                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Melhoria na Experiência do Cliente</h4>
+                    <p class="text-slate-600 text-sm">Respostas instantâneas e consistentes a qualquer hora, elevando a satisfação e percepção da marca.</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <span class="text-4xl">🎯</span>
-                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Captação de Leads Aprimorada</h4>
-                    <p class="text-slate-600 text-sm">Coleta e qualificação automática de leads, direcionando contatos mais preparados para a equipe de vendas.</p>
+                    <span class="text-4xl block mx-auto">🎯</span>
+                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Captação de Leads nas Redes Sociais</h4>
+                    <p class="text-slate-600 text-sm">Coleta automática de leads, caindo direto no banco de dados para a equipe de vendas.</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <span class="text-4xl">🚀</span>
-                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Escalabilidade de Campanhas</h4>
-                    <p class="text-slate-600 text-sm">Envio de mensagens segmentadas em escala, otimizando o ROI de marketing com menor custo operacional.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <span class="text-4xl">📈</span>
+                    <span class="text-4xl block mx-auto">📈</span>
                     <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Aumento do Engajamento</h4>
                     <p class="text-slate-600 text-sm">Interações diretas e consistentes que o algoritmo do Instagram valoriza, aumentando a visibilidade do perfil.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all">
+                    <span class="text-4xl block mx-auto">🚀</span>
+                    <h4 class="font-bold text-lg text-slate-800 mt-4 mb-2">Escalabilidade de Campanhas</h4>
+                    <p class="text-slate-600 text-sm">Possibilidade de enviar mensagens como lembrete, pós-venda etc. Aumentando as taxas de conversão de todo o funil.</p>
                 </div>
             </div>
         </section>
@@ -134,46 +134,61 @@
             </div>
             
             <!-- Tabs -->
-            <div class="flex justify-center mb-8 border-b border-slate-200">
-                <button class="tab active px-6 py-3 font-semibold text-slate-600 transition-colors" onclick="switchTab('initial')">Fase 1: Implementação Inicial</button>
-                <button class="tab px-6 py-3 font-semibold text-slate-600 transition-colors" onclick="switchTab('future')">Fase 2: Otimizações Futuras</button>
+            <div class="flex flex-wrap justify-center mb-8 border-b border-slate-200">
+                <button class="tab active px-6 py-3 font-semibold text-slate-600 transition-colors" onclick="switchTab('phase1')">1ª Fase: Inicial</button>
+                <button class="tab px-6 py-3 font-semibold text-slate-600 transition-colors" onclick="switchTab('phase2')">2ª Fase: IA</button>
+                <button class="tab px-6 py-3 font-semibold text-slate-600 transition-colors" onclick="switchTab('phase3')">3ª Fase: Campanhas</button>
             </div>
 
             <!-- Tab Content -->
-            <div id="initial" class="tab-content active">
+            <div id="phase1" class="tab-content active">
                 <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <h4 class="font-bold text-xl text-slate-800 mb-4">Escopo Inicial: Foco em Conversão</h4>
-                    <ul class="space-y-4 text-slate-600">
+                    <h4 class="font-bold text-xl text-slate-800 mb-4">1ª Fase: Implementação Inicial</h4>
+                    <p class="text-slate-600">Foco em engajar o usuário interessado em exame de vista, converter esse interesse em agendamentos e otimizar o fluxo de comunicação.</p>
+                    <ul class="space-y-4 text-slate-600 mt-4">
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
-                            <div><strong>Resposta Padrão (Saudação):</strong> Configuração de uma mensagem de boas-vindas automática para direcionar o usuário.</div>
+                            <div><strong>Resposta Padrão (Instagram & Messenger):</strong> Configuração de uma mensagem de boas-vindas automática para direcionar o usuário.</div>
                         </li>
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
-                            <div><strong>Automação de Comentários:</strong> Detecção de palavras-chave em comentários para iniciar uma conversa privada (DM) de forma proativa.</div>
+                            <div><strong>Automação de Comentários (Instagram & Messenger):</strong> Detecção de palavras-chave em comentários para iniciar uma conversa privada (DM) de forma proativa.</div>
                         </li>
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
-                            <div><strong>Fluxos de Conversão na DM:</strong> Desenvolvimento de um fluxo conversacional para captar interessados em agendar exames, solicitando nome, e-mail e telefone, e enviando os dados para o seu banco de leads.</div>
+                            <div><strong>Fluxos de Conversão (Instagram & Messenger):</strong> Desenvolvimento de um fluxo conversacional para captar interessados em agendar exames, solicitando nome, e-mail e telefone, e enviando os dados para o seu banco de leads.</div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div id="future" class="tab-content">
+            <div id="phase2" class="tab-content">
                 <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <h4 class="font-bold text-xl text-slate-800 mb-4">Melhorias Futuras: Inteligência e Retenção</h4>
-                     <ul class="space-y-4 text-slate-600">
+                    <h4 class="font-bold text-xl text-slate-800 mb-4">2ª Fase: Implementação de IA</h4>
+                    <p class="text-slate-600">Aprimoramento da experiência do usuário e otimização das conversões com o uso de inteligência artificial.</p>
+                     <ul class="space-y-4 text-slate-600 mt-4">
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
-                            <div><strong>Respostas com IA:</strong> Integração de Inteligência Artificial para um atendimento mais natural e personalizado, compreendendo intenções complexas.</div>
+                            <div><strong>Respostas Dinâmicas com IA:</strong> Integração de Inteligência Artificial para um atendimento mais natural e personalizado, compreendendo intenções complexas.</div>
                         </li>
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
                             <div><strong>Automação de Dúvidas com CTA:</strong> Respostas automáticas a perguntas frequentes (endereços, tipos de exame) seguidas de uma chamada para ação (CTA) para agendamento.</div>
                         </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="phase3" class="tab-content">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h4 class="font-bold text-xl text-slate-800 mb-4">3ª Fase: Implementação de Campanhas</h4>
+                    <p class="text-slate-600">Foco em construir relacionamentos duradouros e maximizar a taxa de retenção e retorno dos clientes.</p>
+                     <ul class="space-y-4 text-slate-600 mt-4">
                         <li class="flex items-start">
                             <span class="text-emerald-500 font-bold mr-3">✓</span>
-                            <div><strong>Lembretes e E-mail Marketing:</strong> Envio de lembretes de agendamento e integração com plataformas de e-mail para nutrição e retenção de clientes.</div>
+                            <div><strong>Lembretes Automatizados:</strong> Envio de mensagens de lembrete de confirmação de agendamentos e pós-venda para clientes no Instagram, Messenger e WhatsApp.</div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-emerald-500 font-bold mr-3">✓</span>
+                            <div><strong>Integração com E-mail Marketing:</strong> Sincronização com plataformas de e-mail para nutrição e comunicação mais abrangentes com os clientes.</div>
                         </li>
                     </ul>
                 </div>
@@ -197,11 +212,11 @@
                         <p class="text-4xl font-bold text-emerald-600 my-2" id="total-cost">
                             R$ 299/mês
                         </p>
-                        <p class="text-xs text-slate-400">*(valor escalonável do plano Pro a partir de US$15/mês)</p>
+                        <p class="text-xs text-slate-400">*(O valor de R$299/mês é para a implementação até a Fase 2. Custos adicionais podem ser aplicados conforme o projeto avançar.)</p>
                     </div>
                 </div>
                 <div class="mt-8 pt-6 border-t border-slate-200">
-                    <p class="text-sm text-slate-600"><strong>Conclusão:</strong> Para implementar as melhorias e funcionalidades de IA descritas nesta proposta, como o atendimento mais dinâmico e a compreensão de intenções complexas, o investimento no plano ManyChat Pro e no complemento de IA, que custa R$299 por mês, é essencial. Este gasto é fundamental para a nossa estratégia de otimização e conversão.</p>
+                    <p class="text-sm text-slate-600"><strong>Conclusão:</strong> O investimento no plano ManyChat Pro e no complemento de IA, de R$299 por mês, é essencial para as melhorias de IA e otimização de conversão propostas.</p>
                 </div>
             </div>
         </section>
@@ -223,12 +238,20 @@
             tabs.forEach(tab => tab.classList.remove('active'));
             contents.forEach(content => content.classList.remove('active'));
 
-            document.querySelector(`.tab[onclick="switchTab('${tabId}')"]`).classList.add('active');
-            document.getElementById(tabId).classList.add('active');
+            const activeTab = document.querySelector(`.tab[onclick="switchTab('${tabId}')"]`);
+            if (activeTab) {
+                activeTab.classList.add('active');
+            }
+            const activeContent = document.getElementById(tabId);
+            if (activeContent) {
+                activeContent.classList.add('active');
+            }
         }
-
-        // Active nav link on scroll
+        
         document.addEventListener('DOMContentLoaded', () => {
+            // Set initial active tab
+            switchTab('phase1');
+
             const sections = document.querySelectorAll('section');
             const navLinks = document.querySelectorAll('nav a');
             const headerHeight = document.getElementById('header').offsetHeight;
